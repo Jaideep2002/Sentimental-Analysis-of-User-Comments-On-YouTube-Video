@@ -1,0 +1,563 @@
+$ git config --global user.name "Jaideepsharma"
+$ git config --global user.email "jaideepsharma@gmail.com"
+$ git config --global user.name
+$ git config --global user.email
+$ git config --list
+git clone https://github.com/Manan1996/Sentimental-Analysis-of-Youtube
+$ git log
+$ git log --oneline
+$ git log --stat
+$ git show 
+$ touch name.txt
+$ cat > name.txt
+$ rm -i file.txt
+$ git status 
+$ git add first.txt
+------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------
+ git init - master branch 
+git clone - clonning
+git push origin master
+$ git branch developer
+$ git checkout developer; ( shift from master to developer )
+git add .
+git commit -m "first commit"
+git push origin developer
+-------------------------------------------------------------------------------------------------------------
+
+
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ pwd
+/c/Users/Jaideep
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ dir
+3D\ Objects
+Anaconda3-2021.05-Windows-x86_64.exe
+AppData
+Application\ Data
+Contacts	
+Cookies
+Deep_and_Machine_Learning_Projects
+Documents
+Downloads
+Favorites
+IdeaProjects
+IntelGraphicsProfiles
+Jedi
+Links
+Local\ Settings
+MSWD
+Microsoft
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.0.regtrans-ms
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.1.regtrans-ms
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.2.regtrans-ms
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.blf
+NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf
+NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Pictures
+Postman
+PrintHood
+PycharmProjects
+ReCap_2021_G1_Win_64bit_wi_en-US_Setup.exe
+ReCap_2021_G1_Win_64bit_wi_en-US_Setup_webinstall.exe
+Recent
+Saved\ Games
+Searches
+SendTo
+Sentimental-Analysis-of-Youtube-Comments
+Start\ Menu
+TableauPublicDesktop-64bit-2021-4-2.exe
+Templates
+Untitled.ipynb
+Untitled1.ipynb
+Untitled2.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Videos
+class1.ipynb
+class_01_Sept_03.ipynb
+class_02_sep_04.ipynb
+class_03_07_sept.ipynb
+college
+course
+eclipse
+eclipse-workspace
+eclipse_jee
+git-projects
+github
+gitproject
+hardy
+javac
+miktex-console.lock
+mysql-installer-community-8.0.26.0.msi
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+putty-64bit-0.76-installer.msi
+pycharm-community-2021.2.exe
+pycharm-community-2021.3.exe
+pyhton
+rose
+sum.c
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ cd git
+git-projects/ github/       gitproject/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ cd github
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/github
+$ pwd
+/c/Users/Jaideep/github
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/github
+$ dir
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/github
+$ cd ..
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ cd gitproject
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/gitproject
+$ dir
+500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
+deep-learning-for-image-processing
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/gitproject
+$ cd ,,
+bash: cd: ,,: No such file or directory
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/gitproject
+$ cd ..
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ cd gitprojects
+bash: cd: gitprojects: No such file or directory
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ cd git-projects
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/git-projects
+$ dir
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/git-projects
+$ cd ..
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ rm git-projects
+rm: cannot remove 'git-projects': Is a directory
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ rm -f git-projects
+rm: cannot remove 'git-projects': Is a directory
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ pwd
+/c/Users/Jaideep
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ dir
+3D\ Objects
+Anaconda3-2021.05-Windows-x86_64.exe
+AppData
+Application\ Data
+Contacts
+Cookies
+Deep_and_Machine_Learning_Projects
+Documents
+Downloads
+Favorites
+IdeaProjects
+IntelGraphicsProfiles
+Jedi
+Links
+Local\ Settings
+MSWD
+Microsoft
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.0.regtrans-ms
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.1.regtrans-ms
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.2.regtrans-ms
+NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.blf
+NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf
+NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Pictures
+Postman
+PrintHood
+PycharmProjects
+ReCap_2021_G1_Win_64bit_wi_en-US_Setup.exe
+ReCap_2021_G1_Win_64bit_wi_en-US_Setup_webinstall.exe
+Recent
+Saved\ Games
+Searches
+SendTo
+Sentimental-Analysis-of-Youtube-Comments
+Start\ Menu
+TableauPublicDesktop-64bit-2021-4-2.exe
+Templates
+Untitled.ipynb
+Untitled1.ipynb
+Untitled2.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Videos
+class1.ipynb
+class_01_Sept_03.ipynb
+class_02_sep_04.ipynb
+class_03_07_sept.ipynb
+college
+course
+eclipse
+eclipse-workspace
+eclipse_jee
+git-projects
+github
+gitproject
+hardy
+javac
+miktex-console.lock
+mysql-installer-community-8.0.26.0.msi
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+ntuser.ini
+putty-64bit-0.76-installer.msi
+pycharm-community-2021.2.exe
+pycharm-community-2021.3.exe
+pyhton
+rose
+sum.c
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ pwd
+/c/Users/Jaideep
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ mkdir myproject
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ pwd
+/c/Users/Jaideep
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~
+$ cd myproject
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject
+$ git init
+Initialized empty Git repository in C:/Users/Jaideep/myproject/.git/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject (master)
+$ git branch
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject (master)
+$ git clone https://github.com/Jaideep2002/repo1.git
+Cloning into 'repo1'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), 291.31 KiB | 2.33 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject (master)
+$ cd repo1/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ ls
+README.md  YOUTUBE_COMMENT_ANALYSIS_01.pptx
+.
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ ls
+README.md  YOUTUBE_COMMENT_ANALYSIS_01.pptx
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git branch
+* main
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git add .
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git commit -m "bang on 1st commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ $ git config --global user.name "jaideep2002"
+bash: $: command not found
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ $ git config --global user.name
+bash: $: command not found
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ $ git config --global user.name "Jaideep2002"
+bash: $: command not found
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ $ git config --global user.email "jaideepsharma12224@gmail.com"
+bash: $: command not found
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git commit -m "bang on 1st commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Jaideep2002/repo1.git'
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git branch developer
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git add .
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git commit -m "first commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (main)
+$ git checkout developer
+Switched to branch 'developer'
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git clone https://github.com/Jaideep2002/repo1.git
+Cloning into 'repo1'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), 291.31 KiB | 1.16 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ cd repo1/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1/repo1 (main)
+$ ls
+README.md  YOUTUBE_COMMENT_ANALYSIS_01.pptx
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1/repo1 (main)
+$ git clone https://github.com/Jaideep2002/repo1.git
+Cloning into 'repo1'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0R
+Receiving objects: 100% (7/7), 291.31 KiB | 674.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1/repo1 (main)
+$ git checkout developer
+error: pathspec 'developer' did not match any file(s) known to git
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1/repo1 (main)
+$ cd ..
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git checkout developer
+Already on 'developer'
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git add .
+warning: adding embedded git repository: repo1
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> repo1
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached repo1
+hint:
+hint: See "git help submodule" for more information.
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git commit -m "first commit"
+[developer ad91c10] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 160000 repo1
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git push origin developer
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 252 bytes | 252.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'developer' on GitHub by visiting:
+remote:      https://github.com/Jaideep2002/repo1/pull/new/developer
+remote:
+To https://github.com/Jaideep2002/repo1.git
+ * [new branch]      developer -> developer
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ ls
+README.md  YOUTUBE_COMMENT_ANALYSIS_01.pptx  repo1/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git branch
+* developer
+  main
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git branch raju
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git branch rahul
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git branch ravi
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git branch
+* developer
+  main
+  rahul
+  raju
+  ravi
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (developer)
+$ git checkout raju
+Switched to branch 'raju'
+M       repo1
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ git clone https://github.com/Jaideep2002/repo1.git
+fatal: destination path 'repo1' already exists and is not an empty directory.
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ ls
+README.md  YOUTUBE_COMMENT_ANALYSIS_01.pptx  repo1/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ cd re
+README.md  repo1/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ cd re
+README.md  repo1/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ cd re
+README.md  repo1/
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ git add .
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ git commit -m "first commit of raju"
+On branch raju
+nothing to commit, working tree clean
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ git push origin raju
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'raju' on GitHub by visiting:
+remote:      https://github.com/Jaideep2002/repo1/pull/new/raju
+remote:
+To https://github.com/Jaideep2002/repo1.git
+ * [new branch]      raju -> raju
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ git branch
+  developer
+  main
+  rahul
+* raju
+  ravi
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (raju)
+$ git checkout ravi
+Switched to branch 'ravi'
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (ravi)
+$ git clone https://github.com/Jaideep2002/repo1.git
+fatal: destination path 'repo1' already exists and is not an empty directory.
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (ravi)
+$ git add .
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (ravi)
+$ git commit -m "ravi first commit"
+On branch ravi
+nothing to commit, working tree clean
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (ravi)
+$ git push origin ravi
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'ravi' on GitHub by visiting:
+remote:      https://github.com/Jaideep2002/repo1/pull/new/ravi
+remote:
+To https://github.com/Jaideep2002/repo1.git
+ * [new branch]      ravi -> ravi
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (ravi)
+$ git branch
+  developer
+  main
+  rahul
+  raju
+* ravi
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (ravi)
+$ git log
+commit ad91c106830655968293fe66ec5ee3558d157854 (HEAD -> ravi, origin/ravi, origin/raju, origin/developer, raju, rahul, developer)
+Author: Jaideepsharma <jaideepsharma@gmail.com>
+Date:   Sat Jan 29 12:42:38 2022 +0530
+
+    first commit
+
+commit 5d2e388c85a5011f4a719fdbc053ad7ab286e079 (origin/main, origin/HEAD, main)
+Author: Jaideep2002 <84230985+Jaideep2002@users.noreply.github.com>
+Date:   Sat Jan 29 12:24:17 2022 +0530
+
+    Add files via upload
+
+commit 8eb1eb23222dc2ad36004058fcdd8c29efce235c
+Author: Jaideep2002 <84230985+Jaideep2002@users.noreply.github.com>
+Date:   Sat Jan 29 12:22:38 2022 +0530
+
+    Initial commit
+
+Jaideep@DESKTOP-9STUL7I MINGW64 ~/myproject/repo1 (ravi)
+$
